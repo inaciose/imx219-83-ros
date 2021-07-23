@@ -1,0 +1,8 @@
+<launch>
+    <node name="camera_node" pkg="imx219-83-ros" type="csicam_publisher" output="screen">
+        <param name="device" type="string" value="1" />
+        <param name="devxr" type="string" value="640" />
+        <param name="devyr" type="string" value="480" />
+        <param name="view" type="int" value="1" />
+    </node> 
+</launch>
